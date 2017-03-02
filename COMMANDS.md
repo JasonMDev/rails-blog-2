@@ -3,6 +3,8 @@ This is the summary of the Rails Command used to generate the web page.
 
         $ rails _5.0.1_ new rails-blog-2
         $ rails g controller posts
+        $ rails g model Post title:string body:text
+        $ rails db:migrate
 
         $ rails g scaffold Link title:string url:string
         $ rails g devise:install
