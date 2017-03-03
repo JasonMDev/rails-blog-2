@@ -6,6 +6,8 @@ This is the summary of the Rails Command used to generate the web page.
         $ rails g model Post title:string body:text
         $ rails db:migrate
         $ rails g model Comment name:string body:text post:references
+        $ rails db:migrate
+        $ rails g controller comments
 
         $ rails g scaffold Link title:string url:string
         $ rails g devise:install
