@@ -9,6 +9,11 @@ This is the summary of the Rails Command used to generate the web page.
         $ rails db:migrate
         $ rails g controller comments
         $ rails g controller pages
+        $ bundle install --without production
+        $ rails g devise:install
+        $ rails g devise:views
+        $ rails g devise User
+        $ rails db:migrate
 
         $ rails g scaffold Link title:string url:string
         $ rails g devise:install
